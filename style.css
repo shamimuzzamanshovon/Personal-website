@@ -1,0 +1,29 @@
+body{
+	margin:0;
+}
+.header{
+	background:red;
+	height:200px;
+}
+
+.content{
+	background:blue;
+	overflow:hidden;  
+}
+.content.left{
+	background:green;
+	height:500px;
+    width:30%;
+    float:left;	
+}
+.content.right{
+	background:black;
+	height:500px;
+	overflow:hidden;
+    width:30%;	
+}
+
+.footer{
+	background:orange;
+	height:100px;
+}
